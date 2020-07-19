@@ -1,9 +1,9 @@
-n = document.g"use strict";
+"use strict";
 
 {
   const question = document.getElementById("question");
   const choices = document.getElementById("choices");
-  const btetElementById("btn");
+  const btn = document.getElementById("btn");
   const result = document.getElementById("result");
   const scoreLabel = document.querySelector("#result > p");
   const detail = document.getElementById("exp");
