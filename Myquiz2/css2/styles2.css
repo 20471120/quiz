@@ -1,0 +1,90 @@
+body {
+  background: #9966cc;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+body > a {
+  font-size:30px;
+  vertical-align: -5px;
+  padding-top: 15px;
+}
+h2 {
+  font-size:16px;
+}
+#a {
+  line-height: 16px;
+}
+
+@keyframes feed {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  65% {
+    transform: scale(4.5);
+    opacity: 0;
+  }
+  80% {
+    transform: scale(0.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#seigo1 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo2 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo3 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo4 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo5 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo6 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo7 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo8 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo9 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
+#seigo10 {
+  animation-name: feed;
+  animation-duration: 3s;
+  text-shadow: 1px 2px 15px rgba(0, 0, 0,0.6);
+}
