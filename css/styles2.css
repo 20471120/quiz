@@ -1,7 +1,6 @@
 body {
   font-family: Verdana, sans-serif;
-  margin-left: 0;
-  margin-right: 0;
+  margin:0 auto;
 }
 
 .kingsuraimu {
@@ -65,9 +64,25 @@ body {
 }
 
 .quizphoto1 {
+  width: 400px; 
+  height: 300px; 
   margin-left: auto;
   margin-right: auto;
+  padding-top: 35px;
   display: flex;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .container {
+    width: 375px;
+  }
+  .info h1 {
+    font-size: 28px;
+  }
+  .quizphoto1 {
+    width: 85%;
+    margin: 0 auto;
+  }
 }
 
 .works1 {
@@ -75,11 +90,22 @@ body {
 }
 
 .works1 a:hover {
-  background: gray;
+  opacity: 0.5;
 }
 
 .quiz {
   background: skyblue;
   margin-left: auto;
   margin-right: auto;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+#last {
+  margin: 0;
+  padding-bottom: 20px;
 }
